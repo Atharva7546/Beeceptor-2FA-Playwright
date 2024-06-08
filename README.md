@@ -40,7 +40,7 @@ password=your_password
 ### Running the Tests
 To run the tests, use the following command:
 ```bash
-npm test
+npx playwright test --workers 1 --headed
 ```
 
 Scripts Overview : 
